@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #E2E8F0;
+  }
+  body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Force tabular numerals on all numeric and currency elements */
+  .tabular,
+  .tabular-nums,
+  input[type="number"],
+  table td {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Light mode crisp scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Clean input focus state */
+input:focus,
+select:focus,
+button:focus-visible {
+  outline: 2px solid #1D4ED8;
+  outline-offset: 1px;
+}
