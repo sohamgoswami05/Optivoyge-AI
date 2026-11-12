@@ -4,6 +4,9 @@
 Built for **TBO.com // VOYAGEHACK 4.0 (Track 1: Automate Inventory Optimization)**  
 *Submission on Unstop by Soham Goswami ([@sohamgoswami05](https://github.com/sohamgoswami05))*
 
+🚀 **Live Interactive Demo:** [https://sohamgoswami05.github.io/Optivoyge-AI/](https://sohamgoswami05.github.io/Optivoyge-AI/)  
+📁 **Source Code:** [https://github.com/sohamgoswami05/Optivoyge-AI](https://github.com/sohamgoswami05/Optivoyge-AI)
+
 ---
 
 ## 1. Problem Overview
